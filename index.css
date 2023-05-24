@@ -1,0 +1,802 @@
+body{
+	background-color: #000000;
+}
+
+h2 {
+    padding: 13% 0 0 13%;
+    font-size: 50px;
+
+}
+
+
+/*NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR*/
+
+.nav-top {
+	background-color: #000000;
+}
+
+.nav-top p {
+   font-size: 12px;
+   margin-right: 20px;
+}
+
+
+.nav-case {
+   padding: 0;
+}
+
+.nav-image {
+	height: auto;
+	width: 10%;
+	margin-left: 70px;
+	position: absolute;
+	top: 0;
+}
+
+.facebook-edit {
+   margin-right: 5px;
+}
+
+.twitter-edit {
+  margin-right: 5px;
+}
+
+.pinterest-edit {
+  margin-right: 25px;
+}
+
+.call-edit {
+  margin-right: 5px;
+}
+
+.button-space {
+	margin-left: 310px;
+}
+
+.button-space button {
+	font-size: 15px;
+}
+
+/*First-section First-section First-section First-section First-section*/
+
+.first-section {
+    height: 100%;
+	width: 100%;
+	padding: 0% 2% 0% 2%;
+	background-color: #000000;
+	position: relative;
+}
+
+.image {
+	  max-width: 100%;
+	  height: auto;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-height: 500px; /* add this property to limit the image width */
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5); /* adjust opacity as needed */
+  color: #fff; /* overlay text color */
+  z-index: 1; /* make sure the overlay is on top of the image */
+  display: flex; /* make the overlay text centered vertically and horizontally */
+  /*align-items: center;
+  justify-content: center;
+  text-align: center;*/
+}
+
+.overlay  {
+  font-size: 2rem; /* adjust font size as needed */
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.yellow {
+	color: #FFA500;
+}
+
+/*SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION*/
+
+.second-section {
+	position: absolute;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	top:65%;
+	right:5%;
+	z-index: 1;
+}
+
+.white {
+	background-color: #FFFFFF;
+}
+
+.write-area {
+	height: 320px;
+	width: 425px;
+	margin: 0 0 0 18%;
+	max-width: 100%;
+	height: auto;
+	padding-right: 0px;
+	border-radius: 6px;
+}
+
+.second-image {
+	height:420px;
+	width:850px;
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
+}
+
+.shift-down {
+	padding: 35px 15px 0 10px;
+	margin-left: 15px;
+}
+
+.join {
+	padding: 0 0 0 0;
+
+}
+
+/*THIRD SECTION THIRD SECTION THIRD SECTION THIRD SECTION THIRD SECTION*/
+.third-section {
+	margin: 460px 0 50px 0;
+}
+
+.third-image{
+	background-image: url("image/image3.jpeg");
+	background-size: contain;
+	height:400px;
+	max-width:100%;
+	width:600px;
+	margin: 0 0 0 130px;
+	border-radius: 8px;
+}
+
+.third-two{
+	background-image: url("image/image4.jpeg");
+	background-size: cover;
+	border-radius: 4px;
+}
+
+.third-three {
+	background-image: url("image/image5.jpeg");
+	background-size: cover;
+	border-radius: 4px;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.text-down {
+	padding: 55% 15% 0 0%;
+}
+
+.texts-down {
+	padding: 32.6% 0 0 1%;
+}
+
+/*FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION*/
+
+.fourth-section h4 {
+   display: inline-block;
+   margin: 0 14.4% 0 9.8%;
+}
+
+.fourth-section {
+   margin: 0px 0 20px 0;
+}
+
+.button-resize {
+	font-size: 13px;
+	border-radius: 4px;
+	margin: 0 10.7% 1.3% 0;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+#breakfast-now {
+  color: #FFA500;
+}
+
+.decourate {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+.breakfast {
+  margin: 0 3% 0 0;
+}
+
+.lunch {
+  margin: 0 3% 0 0;
+}
+
+.dinner {
+  margin: 0 3ver;
+}
+
+/*FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION*/
+
+.fifth-section {
+   margin: 0 0 30px 0;
+}
+
+.card {
+	width: 18rem;
+	background-color: #2d2727;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.card-one {
+  margin: 0 4.6% 0 9.6%;
+}
+
+.card-two {
+  margin: 0 4.6% 0 0%;
+}
+
+/*SIXTH-SECTION SIXTH-SECTION  SIXTH-SECTION  SIXTH-SECTION  SIXTH-SECTION  */
+
+.sixth-section {
+	margin: 0 0 100px 0;
+	height: auto;
+	max-width: 100%;
+	padding: 0 0% 0 7%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.sixth-section-image {
+	object-fit: cover;
+	width: 90%;
+	height: 560px;
+	opacity: 0.5;
+	
+}
+
+/*SEVENTH-SECTION SEVENTH-SECTION SEVENTH-SECTION SEVENTH-SECTION SEVENTH-SECTION */
+
+.seventh-section {
+    margin: 0 0 80px 0;
+}
+
+.testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+
+}
+
+.carousel-item {
+	padding: 10% 5% 9% 5%;
+}
+
+.recepie-image {
+	  height: 10%;
+	  width:35%;
+	  margin: 0 43% 0% 0;
+	  opacity: 0.5;
+}
+
+.seventh-area {
+    height: 100%; 
+	width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 21.5%;
+}
+
+.seventh-plus {
+	position: relative;
+	text-align: center;
+	height: 100%; 
+	width: 100%;
+	
+}
+
+.seventh-section section {
+	margin: 0 0 0 0%;
+	position: absolute;
+	top: 386.3%;
+	left:50%;
+	z-index: 1;
+}
+
+.seventh-section h5 {
+	padding: 4% 0 0 0;
+	font-size: 40px;
+}
+
+.seventh-section h3 {
+	font-size: 30px;
+}
+
+/*EIGHT-SECTION EIGHT-SECTION EIGHT-SECTION EIGHT-SECTION EIGHT-SECTION EIGHT-SECTION*/
+
+.eighth-section {
+   margin: 0px 0 50px 0;
+}
+
+.eighth-section img {
+     height: auto;
+     width: 600px;
+}
+
+.iphone {
+   margin: 0 0 0% 11.5%;
+ }
+
+.iphone-text {
+	background-color: #2d2727;
+	margin: 0 0 0 5%;
+	height: auto;
+	width: 490px;
+}
+
+.button-outline {
+	border-color: #ffffff;
+}
+
+.eighty-one {
+  padding: 12% 6% 0% 5%;
+}
+
+.eighty-two {
+  padding: 0 0 9% 6%;
+  margin-top: 14%;
+}
+
+.google-edit {
+    margin-top: 2px;
+}
+
+.apple-edit {
+
+}
+
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+
+.footer-section {
+	background-color: #191825;
+	margin-left: 0px;
+	margin-right: 0px;
+	max-width: 100%;
+}
+
+.footer-section h5, p, li {
+	color: #ffffff;
+} 
+
+.fav-white {
+	background-color: #ffffff;
+}
+
+@media (max-width:700px) {
+
+/*NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR*/
+
+.nav-top p {
+   font-size: 12px;
+   margin-right: 20px;
+}
+
+
+.nav-case {
+   padding: 0;
+}
+
+.nav-image {
+	height: auto;
+	width: 30%;
+	margin-left: 170px;
+	position: absolute;
+	top: 0;
+}
+
+.facebook-edit {
+   margin-top: 15px;
+   margin-bottom: 8px;	
+   width: 10%;
+}
+
+.twitter-edit {
+  margin-bottom: 8px;
+  width: 10%;
+}
+
+.pinterest-edit {
+  margin-bottom: 8px;
+  width: 10%;
+}
+
+.call-edit {
+  margin-right: 5px;
+  width: 10%;
+}
+
+.button-space {
+	margin-left: 80px;
+}
+
+.button-space button {
+	font-size: 15px;
+}
+
+/*FIRST-SECTION FIRST-SECTION <<MEDIA>> FIRST-SECTION FIRST-SECTION FIRST-SECTION*/
+	h2 {
+		font-size: 25px;
+		padding: 20% 0 0 12%;
+	}
+
+	
+   .first-section {
+   	 padding: 0% 2% 4% 2%;
+   	 position: relative;
+   }
+
+   .image-container {
+     position: relative;
+   }
+
+/*SECOND-SECTION SECOND-SECTION <<MEDIA>> SECOND-SECTION SECOND-SECTION SECOND-SECTION*/
+
+.second-section {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	display:flex;
+	flex-wrap: nowrap;
+	top:40%;
+	right:5%;
+	z-index: 1;
+	height: 100%;
+}
+
+.shift-down {
+	padding: 15px 10px 0 8px;
+	margin-left: 10px;
+}
+
+.write-area {
+    height: 265px;
+	width: 220px;
+	margin: 0 0 0 1%;
+	max-width: 100%;
+	padding: 0% 0% 0% 0%;
+}
+
+.second-image {
+   height:140px;
+	width:220px;
+	max-width: 100%;
+	height: auto;
+}
+
+.shift-down p {
+	font-size: 9.5px;
+}
+
+.shift-down h3 {
+   font-size: 13px;
+}
+
+.shift-down h5 {
+   font-size: 10px;
+}
+
+.shift-down h6 {
+   font-size: 12px;
+   padding-bottom:20px; 
+}
+
+/*THIRD SECTION THIRD SECTION <<MEDIA>> THIRD SECTION THIRD SECTION THIRD SECTION*/
+.third-section {
+	margin: 210px 0 40px 0;
+	display:flex;
+	flex-wrap: nowrap;
+}
+
+.third-image {
+	background-image: url("image/image3.jpeg");
+	background-size: contain;
+	height:140px;
+	max-width:100%;
+	width:210px;
+	margin: 0 0 0 35px;
+	border-radius: 6px;
+}
+
+.third-two {
+	background-image: url("image/image4.jpeg");
+	background-size: cover;
+	height:68px;
+	max-width:100%;
+	width:190px;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+
+
+.third-three {
+	background-image: url("image/image5.jpeg");
+	background-size: cover;
+	height:68px;
+	max-width:100%;
+	width:190px;
+	border-radius: 4px;
+}
+
+.text-down {
+	padding: 47% 15% 0 0%;
+}
+
+.texts-down {
+	padding: 18% 0 0 1%;
+}
+
+.third-image h4 {
+    font-size: 13px
+}
+
+.third-two h4 {
+  font-size: 13px
+}
+
+.third-three h4 {
+  font-size: 13px
+}
+
+/*FOURTH-SECTION FOURTH-SECTION <<MEDIA>> FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION */
+
+.fourth-section h4 {
+   font-size: 13px;
+   margin: 0 8% 0 4.2%;
+}
+
+.fourth-section h5 {
+	font-size: 10px
+}
+
+.fourth-section {
+   margin: 0px 0 13px 0;
+}
+
+.button-resize {
+	font-size: 8px;
+	border-radius: 4px;
+	margin: 0 7% 0 0;
+	height: 1%;
+	width: 20%;
+}
+
+.breakfast {
+  margin: 0 2% 0 0;
+}
+
+.lunch {
+  margin: 0 2% 0 0;
+}
+
+.dinner {
+  margin: 0 2% 0 0;
+}
+
+/*FIFTH-SECTION FIFTH-SECTION <<MEDIA>>FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION*/
+
+.fifth-section {
+   margin: 0 0 50px 0;
+}
+
+.fifth-section h6 {
+   font-size: 15px;
+}
+
+.card {
+	width: 8rem;
+	background-color: #2d2727;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.card-one {
+  margin: 0 4.6% 0 4.1%;
+}
+
+.card-two {
+  margin: 0 4.6% 0 0%;
+}
+
+/*SIXTH-SECTION SIXTH-SECTION  SIXTH-SECTION  SIXTH-SECTION  SIXTH-SECTION  */
+.sixth-section {
+	margin: 0 0 100px 0;
+	height: auto;
+	max-width: 100%;
+	padding: 0 2% 0 2%;
+	
+}
+
+
+.sixth-section-image {
+	object-fit: cover;
+	width: 100%;
+	height: 220px;
+	
+}
+
+/*SEVENTH-SECTION SEVENTH-SECTION SEVENTH-SECTION SEVENTH-SECTION SEVENTH-SECTION */
+
+.seventh-section {
+    margin: 0 0 100px 0;
+}
+
+.testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+
+}
+
+.recepie-image {
+	  width:35%;
+	  margin: 3% 65% 0% 0;
+	 
+}
+
+.carousel-item {
+	padding: 3% 0% 3% 2%;
+}
+
+.seventh-area {
+   margin: 0 0 0 0%;
+   display: inline-block;
+   top: 20%;
+   right: 28%;
+}
+
+.seventh-plus {
+   height: 40px
+   width:60px;
+}
+
+.seventh-section p {
+   font-size: 9px;
+}
+
+
+.seventh-section em {
+	font-size: 12px;
+}
+
+.seventh-section section {
+	margin: 0 0 0 0%;
+	position: absolute;
+	top:208%;
+	left:38%;
+	z-index: 1;
+	height: 250px;
+   width: 250px;
+   box-sizing: content-box;
+}
+
+.seventh-section h5 {
+	padding: 4% 10% 0 0%;
+	font-size: 11px
+}
+
+.seventh-section h3 {
+	font-size: 13px;
+	/*padding: 0% 25% 0 0%;*/
+}
+
+/*EIGHTH-SECTION EIGHTH-SECTION<<MEDIA>>EIGHTH-SECTION EIGHTH-SECTION EIGHTH-SECTION */
+
+.eighth-section {
+   margin: 0px 0 50px 0;
+}
+
+.eighth-section h3 {
+  font-size: 12px
+}
+
+.eighth-section h6 {
+ font-size: 10px
+}
+
+.eighth-section p {
+ font-size: 9px
+}
+
+.eighth-section button {
+	font-size: 8px
+}
+
+.eighth-section img {
+     height: auto;
+     width: 260px;
+}
+
+.iphone {
+   margin: 0 0 0% 0%;
+   padding: 0 0 0 2%;
+   width: 230px;       
+ }
+
+.iphone-text {
+	background-color: #2d2727;
+	margin: 0% 2% 0% 0%;
+	height: auto;
+	width: 150px;
+	flex: 20%;
+	
+}
+
+.eighty-one {
+  padding: 5% 1% 0% 1%;
+}
+
+.eighty-two {
+  padding: 0 0 5% 1.5%;
+  margin-top: 7.7%;
+}
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER<<MEDIA>>FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+
+.email-subscribe {
+  width: 40%;
+  margin-left: 130px;
+}
+
+.twitter-move {
+  margin-left: 120px;
+  margin-right: 25px;
+}
+
+.instagram-move {
+  margin-right: 25px;
+}
+
+.facebook-move {
+  margin-right: 25px;
+}
+
+.icon-top {
+	margin-top: 30px;
+}
+
+.first-footer {
+
+}
+
+.second-footer {
+	padding: 0 0 0 0;
+	width: 30%;
+    margin-left: 80px;
+}
+
+.third-footer {
+	margin-left: 150px;
+}
+
+
+
+}
