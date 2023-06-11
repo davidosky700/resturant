@@ -1,0 +1,265 @@
+body {
+	font-family: 'Lora', serif;
+}
+
+
+.white-text {
+	color: #ffffff;
+}
+
+.center {
+	text-align: center;
+}
+
+/*NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR NAV-BAR*/
+
+
+/*FIRST-SECTION FIRST-SECTION <<MEDIA>> FIRST-SECTION FIRST-SECTION FIRST-SECTION*/
+
+.first-section {
+   padding-top: 8%;
+   background-image: url("image/image1.jpeg");
+   background-size: cover;
+   text-align: center;
+   justify-content: center;
+}
+
+
+
+.first-child {
+	padding: 4% 4% 5% 4%;
+
+}
+
+.first-section h1 {
+   font-size: 55px;
+   font-weight: 700;
+}
+
+.first-section h5 {
+   font-size: 25px;
+}
+
+.first-button {
+	width: 50%;
+	margin-left: 24%;
+}
+
+/*TESTIMONIAL TESTIMONIAL TESTIMONIAL TESTIMONIAL TESTIMONIAL TESTIMONIAL*/
+
+.testimonial {
+	background-color: #f1f6f9;
+}
+
+.testimonial-child {
+	padding: 9% 9% 15% 11%;
+}
+
+.testimonial h3 {
+	font-size: 28px;
+}
+
+.testimonial h4 {
+	margin-top: 12%;
+	text-align: center;
+}
+
+/*SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION*/
+
+.second-section {
+	background-color: #ffffff;
+}
+
+.second-section h1 {
+	font-size: 35px;
+	font-weight: 700;
+	padding: 7% 0 0 0;
+}
+
+.second-one {
+  height:100%;
+  width: 100%;
+}
+
+.second-section img {
+  width: 70%;
+  margin: 3% 0 0 0%;
+}
+
+.second-section h2 {
+	font-size: 25px;
+	font-weight: 600;
+	padding: 5% 0 1% 0;
+}
+
+.second-section h6 {
+	font-size: 18px;
+	padding: 0 10% 2% 10%;
+}
+
+.squish {
+	padding: 0 7% 0 7%;
+}
+
+.info-edit {
+	margin-bottom: 5%;
+}
+
+
+/*THIRD-SECTION THIRD-SECTION THIRD-SECTION THIRD-SECTION THIRD-SECTION*/
+
+.third-section {
+	background-color: #20262e;
+}
+
+.third-one {
+	padding: 20% 2% 0 5%;
+}
+
+.third-section h2 {
+	font-size: 25px;
+	font-weight: 600;
+	padding: 0 0 10% 0;
+}
+
+.third-section h6 {
+	font-size: 18px;
+	padding: 0 10% 0 0%;
+}
+
+.third-two {
+	padding: 0 0 0 5%;
+}
+
+.form-edit {
+	width: 75%;
+}
+
+.send-button {
+	text-align: right;
+	width: 76%;
+	margin: 2% 0 0% 0;
+	padding-bottom: 4%;
+}
+
+/*FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION*/
+
+.fourth-section {
+	background-color: #f1f6f9;
+	padding: 0 10% 0 10%;
+}
+
+.fourth-section h2 {
+	font-size: 27px;
+	font-weight: 600;
+	padding-top: 9%;
+}
+
+.fourth-section h6 {
+	line-height: 25px; 
+}
+
+#adjust {
+	padding: 0 0 8% 0;
+	margin:0 0 0 0;
+}
+
+/*FOOTER-SECTION FOOTER-SECTION FOOTER-SECTION FOOTER-SECTION FOOTER-SECTION*/
+
+.end {
+	background-color: #000000;
+	margin: 0 0 0 0;
+	max-width: 100%;
+}
+
+.block {
+	padding: 0 0 3% 0;
+
+}
+
+.one {
+	padding-top: 15%;
+}
+
+.end table {
+   margin-right: 10%;
+}
+
+@media (min-width: 750px) {
+
+/*TESTIMONIAL TESTIMONIAL  <<MEDIA>> TESTIMONIAL TESTIMONIAL TESTIMONIAL TESTIMONIAL*/
+
+.testimonial-child {
+	padding: 9% 33% 15% 33%;
+}
+
+.testimonial h3 {
+	font-size: 30px;
+}
+
+/*SECOND-SECTION SECOND-SECTION <<MEDIA>> SECOND-SECTION SECOND-SECTION SECOND-SECTION*/
+
+.second-section img {
+  width: 40%;
+  margin: 3% 0 0 0%;
+}
+
+.second-section h2 {
+	font-size: 28px;
+	font-weight: 600;
+	padding: 5% 0 1% 0;
+}
+
+.second-section h6 {
+	font-size: 18px;
+	padding: 0 30% 2% 30%;
+}
+
+/*THIRD-SECTION THIRD-SECTION  <<MEDIA>>THIRD-SECTION THIRD-SECTION THIRD-SECTION*/
+
+
+.third-section h2 {
+	font-size: 35px;
+	font-weight: 800;
+	padding: 0 0 10% 0;
+}
+
+.third-one {
+	padding: 10% 2% 0 5%;
+}
+
+.send-button {
+	margin: 2% 0 0% 0;
+}
+
+.third-section button {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 20px;
+}
+
+/*FOURTH-SECTION FOURTH-SECTION <<MEDIA>> FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION*/
+
+.fourth-section {
+	padding: 0 25% 0 25%;
+}
+
+.fourth-section h2 {
+	font-size: 27px;
+	font-weight: 600;
+	padding-top: 9%;
+}
+
+.fourth-section h6 {
+	line-height: 30px;
+}
+
+#adjust {
+	padding: 0 0 8% 0;
+	margin:0 0 0 0;
+}
+
+
+
+
+}
